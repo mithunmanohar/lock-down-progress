@@ -23,7 +23,8 @@ class TweetsManager(object):
         tweet = self._generate_tweet(days_since_lock_down)
         genrate_progress_bar(days_since_lock_down, total_days_lock_down)
         print(tweet)
-        # self.twitter_client.send_tweet(tweet)
+        image = 'progress_bar.jpg'
+        self.twitter_client.send_tweet(tweet, image)
 
 
 

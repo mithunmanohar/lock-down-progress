@@ -2,6 +2,7 @@
 import os
 from tweepy import OAuthHandler, API
 
+
 class TweepyWrapper(object):
     def __init__(self):
         o_auth = OAuthHandler(os.environ['CONSUMER_KEY'], os.environ['CONSUMER_SECRET'])
@@ -9,8 +10,8 @@ class TweepyWrapper(object):
         self.t_client = API(o_auth)
         
     
-    def send_tweet(self, message):
-        self.t_client.update_status(message)
+    def send_tweet(self, message, media):
+        self.t_client.update_with_media(media, message)
 
 if __name__ == '__main__':
     t = TweepyWrapper()
