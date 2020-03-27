@@ -8,4 +8,4 @@
 - Schedule a crontab to run the bot at the frequency you want
 
 
-![Sample tweet by bot](https://prnt.sc/rntmrw)
+![Sample tweet by bot](https://github.com/mithunmanohar/lock-down-progress/blob/master/sample_tweet.PNG)
