@@ -2,7 +2,7 @@
 
 - Sign up for a twitter account and then use the account to apply for a developer account
 - Create a API key pair for twitter API
-- Add the keyw and access token to the environment variable
+- Add the keys and access token to the environment variable
 - `git clone https://github.com/mithunmanohar/lock-down-progress`
 
 - `pip install pipenv` Tested with Python 3.7
